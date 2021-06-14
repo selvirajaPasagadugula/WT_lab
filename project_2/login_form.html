@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #d9ffd9;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #3fc73f;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        table {
+            border-collapse: separate;
+            border-spacing: 20px;
+        }
+
+        input {
+            border: none;
+            padding: 5px;
+        }
+
+        button {
+            background-color: #b3b3b3;
+            color: white;
+            font-weight: bold;
+            border: none;
+            padding: 7px 10px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: lightgreen;
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>LOGIN FORM</h1>
+        <table>
+            <tr>
+                <td> <label for="username">Username:</label></td>
+                <td><input type="text" placeholder="Enter USERNAME" name="username"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" placeholder="Enter PASSWORD" name="password"></td>
+            </tr>
+            <tr>
+                <td><button type="submit">LOGIN</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

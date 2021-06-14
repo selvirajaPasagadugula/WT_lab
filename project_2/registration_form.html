@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #d9ffd9;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #3fc73f;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        table {
+            border-collapse: separate;
+            border-spacing: 20px;
+        }
+
+        input {
+            border: none;
+            padding: 5px;
+        }
+
+        button {
+            background-color: #b3b3b3;
+            color: white;
+            font-weight: bold;
+            border: none;
+            padding: 7px 10px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: lightgreen;
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <h1>REGISTRATION FORM</h1>
+        <table>
+            <tr>
+                <td> <label for="username">Username:</label></td>
+                <td><input type="text" placeholder="Enter NAME" name="name"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" placeholder="Enter PASSWORD" name="password"></td>
+            </tr>
+            <tr>
+                <td> <label for="email">e-Mail:</label></td>
+                <td><input type="text" placeholder="Enter e-Mail" name="email"></td>
+            </tr>
+            <tr>
+                <td> <label for="phone number">Phone number:</label></td>
+                <td><input type="text" placeholder="Enter Phone number" name="phone number"></td>
+            </tr>
+            <tr>
+                <td> <label for="gender">Please select your Gender:</label></td>
+                <td style="color:grey">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td>
+                    <select>
+                        <option>DD</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    <select>
+                        <option>MM</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                    <select>
+                        <option>YYYY</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Language known:</td>
+                <td><input type="checkbox" name="language" value="English">English
+                    <input type="checkbox" name="language" value="Telugu">Telugu
+                    <input type="checkbox" name="language" value="Hindi">Hindi
+                    <input type="checkbox" name="language" value="Tamil">Tamil
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="Address" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><button type="submit">SUBMIIT </button></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
