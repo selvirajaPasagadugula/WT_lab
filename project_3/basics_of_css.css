@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #cce6ff;
+}
+
+body>* {
+    margin: 30px;
+}
+
+h1 {
+    font-family: serif;
+
+}
+
+h2 {
+    color: brown;
+}
+
+h3 {
+    font-family: cursive;
+    color: #e7c52e;
+}
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(19, 150, 143);
+    font-weight: bold;
+}
